@@ -3,17 +3,22 @@
 
 pub fn is_five(x: &i32) -> bool {
     // Your implementation goes here
+    *x == 5
 }
 
 
 fn swap(a: &mut i32, b: &mut i32) {
     // Implement this function
+    let tmp = *a;
+    *a = *b;
+    *b = tmp;
 }
 
 
 
 fn add_and_multiply(a: &i32, b: &mut i32) {
     // Implement this function
+    *b = (*b+*a)*2;
 }
 
 
