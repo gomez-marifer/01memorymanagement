@@ -3,8 +3,8 @@ mod ownerborrow;
 
 fn main(){
 
-    let name = "Not provided";
-    let course = "Not Provided";
+    let name = "Mariafernanda Gomez";
+    let course = "CSCI-3334";
 
     println!("Assignment: Ownership and Borrowing in Rust");
     println!("{}",name);
